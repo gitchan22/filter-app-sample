@@ -1,0 +1,19 @@
+@media screen and (max-width:1200px) {
+  .wrapper{padding: 0 1.25rem;}
+}
+
+@media screen and (max-width:980px) {
+  .filter-btns{margin-bottom:.5rem;}
+}
+
+@media screen and (max-width:786px) {
+  .filter-images .filter-image{width:33.33%;}
+}
+
+@media screen and (max-width:510px) {
+  .filter-images .filter-image{width:50%;}
+  .filter-btns{height:31px;}
+  .filter-btns .filter-btn-menu{display:block;}
+  .filter-btns, .filter-btn-menu{width:100%; flex-wrap:wrap; gap:0; overflow:hidden;}
+  .filter-btns .filter-btn{width:100%;}
+}
